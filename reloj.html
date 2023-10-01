@@ -34,14 +34,23 @@
       src="https://media.revistagq.com/photos/61bb41b5d398f278a07e2bd8/16:9/w_2560%2Cc_limit/Longines-VHP-GMT-2018.jpeg"
       alt="reloj">
     <br>
+
+
     <div class="contenedor-centrado">
       <div class="btn-group " role="group" aria-label="Basic mixed styles example">
 
         <button type="button" class="btn btn-success" onclick="activar_reloj()">Ver hora</button>
         <button type="button" class="btn btn-danger" onclick="detener_reloj()">BASTA!</button>
 
-
       </div>
+      <br>
+      <br>
+      <select id="zona-horaria" class="custom-select custom-select-sm">
+        <option selected value="x">Horarios disponibles</option>
+        <option value="0">Argentina UTC-3</option>
+        <option value="-1">EEUU, Miami UTC-4 horario verano</option>
+        <option value="4">Europa, Francia UTC+1</option>
+      </select>
     </div>
     <br>
     <h3 class="display-4 text-center" id="hora"></h3>
