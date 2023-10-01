@@ -14,7 +14,8 @@ function iniciar_timer(){
         if (index <= tiempo_pedido){
             document.getElementById("contador").innerHTML = `${index}<br />`;
             index++;
-        }else{
+        }
+        if (index > tiempo_pedido){
             detener_timer()
             ruido_timer_finalizado()
         }
@@ -50,4 +51,5 @@ function escribir_tiempo(){
 }
 
 */
+
 
