@@ -1,0 +1,43 @@
+.navbar{
+    background-color: #D2E0FB;
+    border-radius: 13px;
+}
+.fondo-principal{
+    background-color: #D7E5CA;
+}
+
+
+
+.container-publicitario {
+    position: relative; /* Establece el posicionamiento relativo en el contenedor */
+     /* Ancho de la imagen y el contenedor */
+}
+
+.espacio-publicitario-img{
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    border-radius: 50px;
+}
+
+.boton-publicidad {
+    position: absolute; /* Establece el posicionamiento absoluto para el botón */
+    top: 2%; /* Alinea el botón verticalmente en el centro del contenedor */
+    left: 95%; /* Alinea el botón horizontalmente en el centro del contenedor */
+    transform: translate(-50%, -50%); /* Centra el botón correctamente */
+    background-color: white; /* Color de fondo del botón */
+    color: red; /* Color del texto del botón */
+    padding: 2px 5px; /* Espacio interno del botón, ajusta estos valores para hacerlo más pequeño */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 50px;
+    font-size: 14px; /* Ajusta el tamaño del texto */
+}
+.centrada{
+        margin-left: auto;
+        margin-right: auto;
+        display: block; /* Esto asegura que la imagen sea un bloque y se centre correctamente */
+        width: 500;
+        height: 500px;
+}
+.contenedor-centrado{
+    text-align: center;
+}
